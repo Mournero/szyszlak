@@ -1,0 +1,132 @@
+body{
+    background: rgb(65,64,64);
+    background: linear-gradient(180deg, rgba(65,64,64,1) 0%, rgba(41,39,41,1) 100%);
+    padding: 0;
+}
+
+.header{
+    padding-bottom: 25px;
+}
+
+h1{
+    color: white;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 1px 1px rgb(15, 15, 15);
+    background-color: #16161679;
+    font-size: 2.5rem;
+    border-style: double;
+    margin: 0 25%;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    background: rgb(65,64,64);
+    background: linear-gradient(180deg, rgba(65,64,64,1) 0%, rgba(41,39,41,1) 100%);
+    font-style: italic;
+    font-size: 2rem;
+    text-shadow: 1px 1px rgb(34, 34, 34);
+    font-style: inherit;
+    border-style: groove;
+    border-radius: 20px;
+}
+
+.obrazki{
+    background-image: url(./assets/rocket-league-tips.jpg);
+    background-color: #0c0c0c79;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 0 -20px;
+}
+
+.about{
+    padding: 0 10rem;
+}
+
+.bartus{
+    border-style: dashed;
+    border-color: rgb(255, 255, 255);
+    border-radius: 10%;
+    order: -1;
+}
+
+.bartusdiv{
+    padding: 20px 170px;
+    display: flex;
+
+}
+
+.bartuslista{
+    font-size: 2rem;
+    margin-top: -3;
+    margin-left: 19%;
+    color: white;
+    font-style: inherit;
+    
+} 
+
+.xd{
+    margin: -250 720;
+    font-size: 1.5rem;
+    font-style: inherit;
+    color: white;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+}
+
+h4{
+    text-align: center;
+    font-size: 3rem;
+    font-style: inherit;
+    color: white;
+    margin: 500;
+}
+
+h5{
+    text-align: center;
+    font-size: 3rem;
+    font-style: inherit;
+    color: white;
+}
+
+.prices{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -450px;
+
+}
+
+.pricescontainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.pricetitle{
+    font-size: 1.5rem;
+    color: white;
+    
+}
+
+.pricingplan{
+    justify-content: space-around;
+}
+
+@media (max-width: 800px) {
+    .master{
+        width: 150px;
+    }
+
+    h1{
+        margin:0;
+    }
+
+    h2{
+        margin: 0 -30%;
+    }
+}
